@@ -11,14 +11,4 @@ public class a1 {
 	{
 		return "Welcome ";
 	}
-	@GetMapping("/{name}")
-	public String hello(@PathVariable String name)
-	{
-		return "Welcome "+name+"!";
-	}
-	@GetMapping("/{col}")
-	public String MyFavCol(@PathVariable String col)
-	{
-		return "My  Favorite color is "+col;
-	}
 }
